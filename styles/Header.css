@@ -1,0 +1,21 @@
+.header {
+    position: fixed;
+    bottom: .5rem;
+    left: 1rem;
+}
+.header ul {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.header ul li {
+    background-color: burlywood;
+    border-radius: 100%;
+    padding: 10px;
+    transform: scale(1);
+    transition: cubic-bezier(.68,-0.55,.27,1.55) .7s;
+}
+.header ul li:hover {
+    transform: scale(1.1);
+    opacity: 0.5;
+}
