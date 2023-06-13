@@ -5,19 +5,25 @@ body {
 .section1 {
     display: flex;
     justify-content: center;
-    align-items: center;
-    height: 100vh;
+}
+
+@media (min-width:1026px) {
+    .section1 {
+        align-items: center;
+        height: 100vh;
+    }
 }
 
 .maindiv { 
     color: hsl(0, 0%, 95%);
     display: flex;
-    width: 30%;
+    width: 100%;
+    max-width: 900px;
     border-radius: 5px;
     overflow: hidden;
 }
 
-@media (max-width:1026px) {
+@media (max-width:1025px) {
     .maindiv {
         width: 300px;
         flex-direction: column;
