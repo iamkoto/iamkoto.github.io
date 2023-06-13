@@ -17,6 +17,13 @@ body {
     overflow: hidden;
 }
 
+@media (max-width:1026px) {
+    .maindiv {
+        width: 300px;
+        flex-direction: column;
+    }
+}
+
 .div1 {
     background-color: hsl(31, 77%, 52%);
     padding: 40px;
