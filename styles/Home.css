@@ -1,19 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap');
+
 .body {
     display: flex;
     justify-content: center;
     margin-top: 300px;
-    background-color: rgb(195, 179, 161);
+    background-color: #000000;
+    font-family: 'Roboto Condensed', sans-serif;
 }
 
 .maindiv {
     flex-direction: column;
-    background-color: rgb(115, 159, 177);
+    background-color: #4A8C8C;
     border-radius: 50px;
 }
 
 
 .iamkoto {
     color: rgb(52, 228, 52);
+    font-weight: bold;
 }
 
 .img {
