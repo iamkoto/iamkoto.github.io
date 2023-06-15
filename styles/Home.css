@@ -1,0 +1,28 @@
+.body {
+    display: flex;
+    justify-content: center;
+    margin-top: 300px;
+    background-color: rgb(195, 179, 161);
+}
+
+.maindiv {
+    flex-direction: column;
+    background-color: rgb(115, 159, 177);
+    border-radius: 50px;
+}
+
+
+.iamkoto {
+    color: rgb(52, 228, 52);
+}
+
+.img {
+    width: 100px;
+    border-radius: 50px;
+    margin: 30px;
+}
+
+.text {
+    text-align: center;
+    margin-bottom: 40px;
+}
