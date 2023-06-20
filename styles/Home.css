@@ -1,13 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap');
 
 .body {
-    display: flex;
-    justify-content: center;
-    margin-top: 300px;
-    background-color: #000000;
+    background: rgb(0, 0, 0);
     font-family: 'Roboto Condensed', sans-serif;
 }
-
+.green {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+.green svg {
+    height: 100% !important;
+}
 .maindiv {
     flex-direction: column;
     background-color: #4A8C8C;
