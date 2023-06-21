@@ -17,11 +17,8 @@
 
 .maindiv {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
     flex-direction: column;
-    margin-right: 100px
+    margin-left: 50px;
 }
 
 
@@ -33,7 +30,6 @@
 .img {
     width: 365px;
     height: 608px;
-    margin-top: 350px;
 }
 
 .text {
@@ -47,7 +43,6 @@
 .div2 {
     color: #4A8C8C;
     font-size: 61px;
-    margin-left: 200px;
     margin-top: 20px;
 }
 .frontend {
@@ -56,6 +51,9 @@
 .section {
     display: flex;
     justify-content: center;
-    margin-right: 700px;
+    align-items: center;
+    height: 100vh;
 }
-
+.imgdiv {
+    margin-left: -30%;
+}
