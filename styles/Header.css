@@ -1,19 +1,13 @@
 .header {
     position: fixed;
-    bottom: .5rem;
-    left: 1rem;
+    bottom: 45%;
+    right: 10px;
+    transform: translate(-50%,0)
 }
 .header .ul {
     display: flex;
     flex-direction: column;
     gap: 10px;
-    max-height: 0;
-    overflow: hidden;
-    transition: cubic-bezier(.68,-0.55,.27,1.55) .7s;
-}
-
-nav:hover .ul {
-    max-height: 1000px;
 }
 
 .header .ul li {
@@ -27,11 +21,4 @@ nav:hover .ul {
     transform: scale(1.1);
     opacity: 0.5;
 }
-.navdiv {
-    background-color: burlywood;
-    border-radius: 100%;
-    padding: 10px;
-    transform: scale(1);
-    transition: cubic-bezier(.68,-0.55,.27,1.55) .7s;
-    margin-top: 10px;
-}
+
