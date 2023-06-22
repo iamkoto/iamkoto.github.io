@@ -15,7 +15,7 @@
 .leftside {
     color: white;
     background: hsl(252, 100%, 67%);
-    background: radial-gradient(circle, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    background: linear-gradient(180deg, hsl(252, 100%, 67%) 0%, hsl(241, 81%, 54%) 100%);  
     text-align: center;
     border-radius: 30px;
     width: 400px;
@@ -33,11 +33,14 @@
 
 .resulttest {
     background: hsla(256, 72%, 46%, 1);
-    background: radial-gradient(circle, hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));  
+    background: linear-gradient(180deg, hsla(256, 72%, 46%, 1) 0%, hsla(241, 72%, 46%, 0) 100%);  
     display: flex;
+    justify-content: center;
     flex-direction: column;
     border-radius: 100%;
     margin: 30px;
+    width: 200px;
+    height: 200px;
 }
 
 .resultnumber {
@@ -54,10 +57,9 @@
 }
 
 .rightside {
-    text-align: center;
+    background-color: white;
     width: 400px;
-    margin: 60px;
-    border-radius: 30px;
+    border-radius: 0 30px 30px 0;
 }
 
 
@@ -79,9 +81,10 @@
 }
 
 .button {
+    color: white;
     font-size: 25px;
     width: 200px;
     border-radius: 80px;
-    background: hsla(256, 72%, 46%, 1);
-    background: radial-gradient(circle, hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0)); 
+    background: hsl(252, 100%, 67%);
+    background: linear-gradient(180deg, hsl(252, 100%, 67%) 0%, hsl(241, 81%, 54%) 100%);  
 }
