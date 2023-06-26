@@ -59,32 +59,59 @@
 .rightside {
     background-color: white;
     width: 400px;
-    border-radius: 0 30px 30px 0;
+    border-radius: 0 30px 30px 0; 
+    padding: 50px;
 }
 
+.h1 {
+    font-weight: bold;
+}
 
+.score {
+    color: black;
+}
+
+.maxscore {
+    color: rgb(177, 169, 169);
+}
+
+.skills {
+    display: flex;
+    border-radius: 10px;
+    margin: 30px;
+    gap: 20px;
+    width: 300px;
+    height: 50px;
+    text-align: center;
+}
 
 .reaction {
+    background-color: hsl(0, 52%, 95%);
     color: hsl(0, 100%, 67%)
 }
 
 .memory {
+    background-color: hsla(39, 100%, 95%);
     color: hsl(39, 100%, 56%);
 }
 
 .verbal {
+    background-color: hsla(166, 100%, 95%);
     color: hsl(166, 100%, 37%);
 }
 
 .visual {
+    background-color:  hsla(234, 85%, 95%);;
     color: hsl(234, 85%, 45%);
 }
 
 .button {
     color: white;
     font-size: 25px;
-    width: 200px;
+    width: 300px;
+    height: 65px;
     border-radius: 80px;
     background: hsl(252, 100%, 67%);
     background: linear-gradient(180deg, hsl(252, 100%, 67%) 0%, hsl(241, 81%, 54%) 100%);  
+
 }

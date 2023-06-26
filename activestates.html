@@ -5,9 +5,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>activestates</title>
     <link rel="stylesheet" href="./styles/Reset.css">
-    <link rel="stylesheet" href="./styles/Ativestates.css">
+    <link rel="stylesheet" href="./styles/Activestates.css">
+    <link rel="stylesheet" href="./styles/Header.css">
 </head>
 <body class="body">
+
+    <header class="header">
+
+        <nav class="navdiv">
+            <ul class="ul">
+                <li><a href="index.html"><img src="./images/home.svg" alt="home"></a></li>
+
+                <li><a href="card.html"><img src="./images/tabs.svg" alt="tabs"></a></li>
+                
+                <li><a href="qr-code.html"><img src="./images/qr-code.svg" alt="qr-code"></a></li>
+            </ul>
+
+        </nav>
+ 
+    </header>
 
     <section class="bothsides">
         <section class="leftside">
@@ -21,18 +37,19 @@
         </section>
         
         <section class="rightside">
-            <div>
-                <h1 class="h1">Summary</h1>
-                    
-                    <p class="reaction">Reaction</p><p>80 <span>/100</span></p>
-                    <br><br>
-                    <p class="memory">Memory</p><p>92 <span>/100</span></p>
-                    <br><br>
-                    <p class="verbal">Verbal</p><p>61 <span>/100</span></p>
-                    <br><br>
-                    <p class="visual">Visual</p><p>72 <span>/100</span></p>
-                    <br><br>
+
+            <h1 class="h1">Summary</h1>
+
+            <div class="maindivright">
+                <ul>
+                    <li class="reaction skills">Reaction<p class="score">80</p><p class="maxscore">/100</p></li>
+                    <li class="memory skills">Memory <p class="score">92 </p><p class="maxscore">/100</p></li>
+                    <li class="verbal skills">Verbal <p class="score">61</p><p class="maxscore">/100</p></li>
+                    <li class="visual skills">Visual <p class="score">72</p><p class="maxscore">/100</p></li>
+                </ul>
+    
             </div>
+
     
             <Button class="button">Continue</Button>
             
