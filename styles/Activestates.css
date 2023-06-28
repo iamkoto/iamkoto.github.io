@@ -5,11 +5,12 @@
     background-color: hsl(241, 100%, 89%);
 }
 
+
 .bothsides {
     display: flex;
     justify-content: center;
     font-size: 18px;
-
+    padding: 300px
 }
 
 .leftside {
