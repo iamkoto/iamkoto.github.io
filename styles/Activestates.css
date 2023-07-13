@@ -4,9 +4,15 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
     font-family:'Hanken Grotesk', sans-serif;
     background-color: hsl(241, 100%, 89%);
+}
+
+@media (min-width: 1026px) {
+   
+    .body {
+        height: 100vh;
+    } 
 }
 
 
@@ -21,6 +27,7 @@
 @media (max-width:1025px) {
     .bothsides {
         flex-direction: column;
+        margin: 0 10px;
     }
 }
 
@@ -37,6 +44,7 @@
 @media (max-width:1025px) {
     .leftside {
         width: 100%;
+        padding: 0;
     }
 }
 
@@ -44,6 +52,13 @@
     display: flex;
     flex-direction: column;
     margin: 60px;
+}
+
+@media (max-width:1025px) {
+    .result {
+        margin: 0px;
+        align-items: center;
+    }
 }
 
 .yourresult {
@@ -64,20 +79,12 @@
 
 @media (max-width:1025px) {
     .resulttest {
-        width: 50px;
-        height: 50px;
         margin: 10px;
     }
 }
 
 .resultnumber {
     font-size: 50px;
-}
-
-@media (max-width:1025px) {
-    .resultnumber {
-        font-size:13px;
-    }
 }
 
 .resulttitle {
@@ -113,6 +120,8 @@
 @media (max-width:1025px) {
     .rightside {
         width: 100%;
+        padding: 0;
+        border-radius: 30px;
     }
 }
 
@@ -146,7 +155,13 @@
     width: 300px;
     height: 50px;
     padding: 10px;
-   
+}
+
+@media (max-width: 1025px) {
+    .skills {
+        width: 80%;
+        margin: 30px auto;
+    }
 }
 
 .reaction {
@@ -177,5 +192,5 @@
     border-radius: 80px;
     background: hsl(252, 100%, 67%);
     background: linear-gradient(180deg, hsl(252, 100%, 67%) 0%, hsl(241, 81%, 54%) 100%);  
-
+    border: none;
 }
