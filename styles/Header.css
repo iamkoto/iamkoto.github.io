@@ -4,6 +4,14 @@
     right: 10px;
     transform: translate(-50%,0)
 }
+
+@media (max-width:1025px) {
+    .header {
+        bottom: 55%;
+        right: -20px;
+    }
+}
+
 .header .ul {
     display: flex;
     flex-direction: column;
@@ -17,6 +25,8 @@
     transform: scale(1);
     transition: cubic-bezier(.68,-0.55,.27,1.55) .7s;
 }
+
+
 .header ul li:hover {
     transform: scale(1.1);
     opacity: 0.5;
