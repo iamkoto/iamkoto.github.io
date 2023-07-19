@@ -71,7 +71,7 @@ body {
     height: 60px;
     width: 400px;
     border-radius: 10px;
-    border: 1px solid Grey: hsl(231, 7%, 60%);
+    border: 1px solid hsl(231, 7%, 60%);
     cursor: pointer;
 }
 @media (max-width:1025px) {
@@ -98,7 +98,8 @@ body {
     }
 }
 .subscription_button:hover {
-    background-color: hsl(4, 100%, 67%);
+    background: rgb(255,84,120);
+    background: linear-gradient(90deg, rgba(255,84,120,1) 0%, rgba(255,105,62,1) 100%);
 }
 
 @media (max-width:1025px) {
@@ -108,4 +109,7 @@ body {
 }
 .ball {
     width: 20px;
+}
+.remove {
+    display: none;
 }
