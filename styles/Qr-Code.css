@@ -36,3 +36,20 @@
     color: hsl(220, 15%, 55%);
     margin-bottom: 50px;
 }
+.button {
+    width: 257px;
+    height: 38px;
+    border-radius: 25px;
+    background: #3685FF;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff; 
+}
+
+.div2 {
+    text-align: center;
+}
+
+.remove {
+    display: none;
+}

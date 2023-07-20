@@ -26,10 +26,33 @@
     </header>
     <div class="maindiv">
         <img class="img" src="./images/image-qr-code.png" alt="qrcode">
-        <div class="div1">
+        <div onclick="qrCodeCheck()" class="div1">
             <h1 class="h1">Improve your front-end skills by building projetcs</h1>
                 <p class="text">Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p> 
+                <form action="">
+                    <button class="button">Confirm</button>
+                </form> 
         </div>
-    </div> 
+        <div class="div2 remove">
+            <h1 class="h1">QR Code</h1>
+            <p class="text">QR code has been scanned</p>
+            <form action="">
+                <button onclick="returnDefault()" class="button">Go back</button>
+            </form>
+        </div>
+    </div>
 </body>
+
+<script>
+    function qrCodeCheck() {
+        $('.div1').toggleClass ('.remove');
+        $('.div2').toggleClass('remove');
+        event.preventDefault();    
+    }
+    function returnDefault() {
+        $('.div1').toggleClass('remove');
+        $('.div2').toggleClass('remove');
+    }
+</script>
+
 </html>
