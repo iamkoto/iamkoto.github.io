@@ -43,6 +43,9 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
+* {
+    box-sizing: border-box;
+}
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
@@ -93,6 +96,7 @@ body {
     display: flex;
     justify-content: space-around;
     font-size: 15px;
+    margin-top: 80px;
 
     @include device(mobile) {
         flex-direction: column;
@@ -120,6 +124,7 @@ body {
 
             @include device(mobile) {
                 font-size: 40px;
+                text-align: center;
             }
         }
 
@@ -130,6 +135,7 @@ body {
 
             @include device(mobile) {
                 font-size: 14px;
+                text-align: center;
             }
         }
     }
@@ -151,7 +157,7 @@ body {
             background-color: hsl(300, 24%, 96%);
             border-radius: 10px;
             width: 400px;
-            height: 40px;
+            min-height: 40px;
             padding: 10px;
             text-indent: 20px;
 
@@ -159,7 +165,7 @@ body {
                 flex-direction: column;
                 text-align: center;
                 gap: 5px;
-                width: 300px;
+                width: 100%;
             }
         }
 
@@ -189,16 +195,18 @@ body {
 
     @include device(mobile) {
         flex-direction: column;
+        font-size: 16px;
         gap: 30px;
         padding: 0 30px;
+        margin-bottom: 80px;
     }
 
     &-review {
         display: flex;
         flex-direction: column;
         gap: 40px;
-        width: 300px;
-        height: 200px;
+        width: 370px;
+        height: 270px;
         background-color: hsl(300, 43%, 22%);
         border-radius: 10px;
         color: #fff;
@@ -206,6 +214,8 @@ body {
 
         @include device(mobile) {
             width: 100%;
+            gap: 10px;
+            line-height: 20px;
         }
 
         &__user {
@@ -258,5 +268,30 @@ body {
 
     @include device(mobile) {
         display: none;
+    }
+}
+
+.backgroundmobile-top {
+    display: none;
+
+    @include device(mobile) {
+        display: block;
+        position: absolute;
+        z-index: -1;
+        left: 0;
+        top:0;
+    }
+}
+
+.backgroundmobile-bottom {
+    display: none;
+
+    @include device(mobile) {
+        display: block;
+        position: absolute;
+        z-index: -1;
+        right: 0;
+        bottom: 0;
+        width: 100%;
     }
 }
