@@ -53,17 +53,18 @@ table {
 
 body {
     display: flex;
+    justify-content: center;
     flex-direction: column;
+    height: 100vh;
     gap: 100px;
     font-family: 'League Spartan', sans-serif;
-    padding: 150px 100px;
     position: relative;
 }
 
 .content {
     width: 100%;
     max-width: 1440px;
-    margin: auto;
+    margin: 0 auto;
 }
 
 .top {
