@@ -54,9 +54,13 @@ table {
 }
 
 body {
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
   font-family: "League Spartan", sans-serif;
-  padding: 100px;
+  padding: 150px 100px;
   overflow: hidden;
+  position: relative;
 }
 
 .top {
@@ -110,6 +114,52 @@ body {
 }
 .top-right__rating3 {
   margin-left: 80px;
+}
+
+.bottom {
+  display: flex;
+  justify-content: space-around;
+  font-size: 20px;
+}
+.bottom-review {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  width: 300px;
+  height: 200px;
+  background-color: hsl(300, 43%, 22%);
+  border-radius: 10px;
+  color: #fff;
+  padding: 30px;
+}
+.bottom-review__user {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.bottom-review__user-photo {
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+}
+.bottom-review__user-name {
+  font-weight: bold;
+}
+.bottom-review__user-verify {
+  color: hsl(333, 80%, 67%);
+}
+
+.bottom2 {
+  margin-top: 20px;
+}
+
+.bottom3 {
+  margin-top: 40px;
+}
+
+.background-top {
+  z-index: -1;
+  position: absolute;
 }
 
 /*# sourceMappingURL=Style.css.map */
