@@ -57,7 +57,6 @@ body {
     gap: 100px;
     font-family: 'League Spartan', sans-serif;
     padding: 150px 100px;
-    overflow: hidden;
     position: relative;
 }
 
@@ -170,9 +169,16 @@ body {
     margin-top: 40px;
 }
 
-.background {
-    &-top {
-        z-index: -1;
-        position: absolute;
-    }
+.background-top {
+    position: absolute;
+    z-index: -1;
+    left: 0;
+    top:0;
+}
+
+.background-bottom {
+    position: absolute;
+    z-index: -1;
+    right: 0;
+    bottom: 0;
 }
